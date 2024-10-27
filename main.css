@@ -1,4 +1,42 @@
-*{
+/* for all */
+
+* {
   margin: 0;
   padding: 0;
 }
+
+body {
+  height: 100vh;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.7),
+      rgba(11, 11, 154, 0.7)
+    ),
+    url("assets/cow-bg.png") no-repeat center center fixed;
+  background-size: contain;
+  color: white;
+}
+
+nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+}
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: underline;
+  color: #b7b6c1;
+  text-decoration-color: #94958b;
+  padding: 10px 20px;
+}
+
+/* main content */
